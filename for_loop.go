@@ -12,7 +12,7 @@ func main(){
   }
 
   for i := range 3 {
-    fmt.Println(i)
+    fmt.Println("range", i)
   }
 
   for n := range 6 {
